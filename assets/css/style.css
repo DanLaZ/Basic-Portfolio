@@ -1,0 +1,30 @@
+body {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#PRO_pic {
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-right: 650px;
+    line-height: 45px;
+    background-color: teal;
+   
+}
+
+.topnav {
+    float: right;
+    font-size: 18px;
+    clear: both;
+
+}

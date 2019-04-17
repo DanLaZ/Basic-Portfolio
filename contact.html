@@ -9,34 +9,43 @@
 </head>
 <body>
     
-    <!-- Name Header -->
-    <h1>Daniel LaZenberry</h1>
+    <!--wrapper-->
+    <div class="wrapper">
 
-    <!-- Navbar Links -->
-    <div class="topnav">
-       <a class="active" href="index.html">About</a>
-       <a href="portfolio.html">Portfolio</a>
-       <a href="#contact">Contact</a>
+        <!-- Name Header -->
+        <h1>Daniel LaZenberry</h1>
+
+        <!-- Navbar Links -->
+        <div class="topnav">
+        <a class="active" href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Contact Header -->
+        <h2 class="head-2s">Contact</h2>
+
+        <!-- Forms -->
+        <form id="form" action="#">
+            <label for="name">Name</label>
+            <br>
+            <input id="name" type="text" placeholder="First & Last name" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="text" placeholder="email@example.com" required>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="user_message"></textarea>
+            <br>
+            <input id="message" type="submit" value="Submit">
+        </form>
+
     </div>
 
-    <!-- Contact Header -->
-    <h2 class="head-2s">Contact</h2>
+    <!--Footer-->
+    <footer class="foot">Copyright &copy; </footer>
 
-    <!-- Forms -->
-    <form action="#">
-        <label for="name">Name</label>
-        <br>
-        <input id="name" type="text" placeholder="First & Last name" required>
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input id="email" type="text" placeholder="email@example.com" required>
-        <br>
-        <label for="message">Message</label>
-        <br>
-        <textarea name="user_message"></textarea>
-        <br>
-        <input id="message" type="submit" value="Submit">
-    </form>
 </body>
 </html>
