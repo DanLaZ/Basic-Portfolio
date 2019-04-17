@@ -3,6 +3,25 @@ body {
     line-height: 32px;
 }
 
+header {
+    background-color: gray;
+    margin: 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 960px;
+    
+}
+
+h1 {
+    background-color: teal;
+    left: 100%;
+}
+
+ul {
+    right: 100%;
+}
+
 .wrapper {
     width: 960px;
     padding: 20px;
@@ -15,30 +34,4 @@ body {
     width: 250px;
 }
 
-.NAV-bar {
-    top: 100%;
-    width: 960px;
-    margin: 0 auto;
 
-}
-
-.NAV-bar {
-    clear: both;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    line-height: 45px;
-    background-color: teal;
-    width: 33%;
-    left: 100%;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-  }
