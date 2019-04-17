@@ -5,6 +5,7 @@ body {
 
 .wrapper {
     width: 960px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -13,18 +14,56 @@ body {
     width: 250px;
 }
 
+.NAV-bar {
+    top: 0px;
+    left: 0px;
+
+
+}
+
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
     margin-right: 650px;
     line-height: 45px;
     background-color: teal;
+    width: 33%;
    
 }
 
-.topnav {
-    float: right;
-    font-size: 18px;
-    clear: both;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
 
-}
+
+  }
+
+  li a {
+    display: block;
+    width: 60px;
+    
+
+  }
+
+li {
+    display: inline;
+    float: right;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}  
+
+li:last-child {
+    border-bottom: none;
+    
+  }
+
+a {
+    display: block;
+    padding: 20px;
+    margin-right: 20px;
+    
+
+  }
