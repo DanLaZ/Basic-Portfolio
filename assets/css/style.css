@@ -3,6 +3,13 @@ body {
     line-height: 32px;
 }
 
+.wrapper {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
 header {
     background-color: gray;
     border-bottom: 2px solid black;
@@ -11,11 +18,10 @@ header {
     
 }
 
-h1 {
-    background-color: teal;
-    max-width: 50%;
-    height: 40px;
+#logo {
     float: left;
+    height: 150px;
+    width: 300px;
 }
 
 
@@ -27,22 +33,15 @@ nav ul {
 
 nav ul li {
     width: 10%;
-    float: right;
     text-align: center;
     display: block;
     background-color: crimson;
+    float: right;
 }
 
 nav ul li a {
     display: block;
     width: 100%;
-}
-
-.wrapper {
-    width: 960px;
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: burlywood;
 }
 
 #PRO_pic {
