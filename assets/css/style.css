@@ -13,17 +13,11 @@ header {
 
 h1 {
     background-color: teal;
-    float: left;
-    max-width: 100%;
-    width: 300px;
+    max-width: 50%;
     height: 40px;
-    margin: 20px 0;
+    float: left;
 }
 
-nav {
-    max-width: 960px;
-    width: 100%;
-}
 
 nav ul {
     list-style: none;
@@ -36,6 +30,7 @@ nav ul li {
     float: right;
     text-align: center;
     display: block;
+    background-color: crimson;
 }
 
 nav ul li a {
