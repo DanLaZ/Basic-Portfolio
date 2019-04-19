@@ -18,6 +18,11 @@ header {
     
 }
 
+.navbar {
+    max-width: 960px;
+    width: 100%;
+}
+
 #logo {
     float: left;
     height: 150px;
@@ -36,7 +41,7 @@ nav ul li {
     text-align: center;
     display: block;
     background-color: crimson;
-    float: right;
+    float: left;
 }
 
 nav ul li a {
