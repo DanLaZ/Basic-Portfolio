@@ -283,10 +283,31 @@ label {
 
     }
 
-    nav ul {
-        align-content: center;
+    .headname {
+        position: relative;
+
+    }
+
+    nav {
+        display: inline;
+        background-color: #ffffff;
         float: left;
+        width: 100%;
+        margin: 0px 0;
         
+
+    }
+
+    .navlinks {
+      
+       
+        
+
+    }
+
+    nav ul li {
+        
+       
     }
 
 }
