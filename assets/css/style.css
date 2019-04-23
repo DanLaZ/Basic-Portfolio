@@ -246,6 +246,11 @@ label {
 
     }
 
+    .container {
+        max-width: 100%;
+
+    }
+
 }
 
 
@@ -253,6 +258,11 @@ label {
 
     .foot{
         top: 900px;
+
+    }
+
+    .container {
+        max-width: 100%;
 
     }
 
@@ -268,7 +278,15 @@ label {
 
     header {
         position: static;
+        overflow: visible;
+       
 
+    }
+
+    nav ul {
+        align-content: center;
+        float: left;
+        
     }
 
 }
